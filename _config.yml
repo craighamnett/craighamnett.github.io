@@ -6,13 +6,41 @@ layouts_dir:  ./_layouts
 data_dir:     ./_data
 includes_dir: ./_includes
 sass_dir:     ./_sass
-collections:  null
 
-name: "Realise"
-description: "This is the Realise PoC"
+title: "A default title: Realise"
+description: "A default description: Realise is a digital agency based in Edinburgh."
 
-url: "http://localhost:4000"
+excerpt_separator: <!--more-->
 
-markdown: rdiscount
+#url: "http://localhost:4000"
+url: "http://craighamnett.github.io"
+
 permalink: pretty
-pygments: true
+markdown: rdiscount
+highlighter: true
+
+navigation:
+-   text: Home
+    title: Go back home
+    url: /
+    class: nav-home
+-   text: Work
+    title: See our work
+    url: /
+    class: nav-work
+-   text: Services
+    title: What we offer
+    url: /about/
+    class: nav-services
+-   text: Careers
+    title: Join the gang
+    url: /careers/
+    class: nav-careers
+-   text: Blog
+    title: Read our gossip
+    url: /blog/
+    class: nav-blog
+-   text: Get in touch
+    title: Let's talk
+    url: /contact-us/
+    class: nav-contact

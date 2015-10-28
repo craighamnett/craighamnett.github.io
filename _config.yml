@@ -17,7 +17,7 @@ url: "http://craighamnett.github.io"
 
 permalink: pretty
 markdown: rdiscount
-highlighter: true
+highlighter: pygments
 
 navigation:
 -   text: Home

@@ -1,7 +1,7 @@
 ---
 title: WHY do you do what you do?
+description: A description for this post
 layout: default
-description:
 permalink: /blog/:year/:month/:day/:title/
 ---
 

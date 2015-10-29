@@ -1,0 +1,17 @@
+/*
+======
+The navigation contains the logo together with the page links.
+It becomes a fixed header at a certain point.
+======
+*/
+
+header {
+	nav {
+		ul {
+			overflow: auto;
+			li {
+				float: left;
+			}
+		}
+	}
+}

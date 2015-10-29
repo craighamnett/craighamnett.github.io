@@ -1,7 +1,7 @@
 ---
 title: Realise Blog
-layout: default
 description: Read our blog
+layout: default
 ---
 
 <ul>

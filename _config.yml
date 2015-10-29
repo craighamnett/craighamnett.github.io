@@ -5,19 +5,23 @@ plugins_dir:  ./_plugins
 layouts_dir:  ./_layouts
 data_dir:     ./_data
 includes_dir: ./_includes
-sass_dir:     ./_sass
 
 title: "A default title: Realise"
 description: "A default description: Realise is a digital agency based in Edinburgh."
 
 excerpt_separator: <!--more-->
 
-#url: "http://localhost:4000"
-url: "http://craighamnett.github.io"
+url: "http://localhost:4000"
+#url: "http://craighamnett.github.io"
 
 permalink: pretty
 markdown: rdiscount
 highlighter: pygments
+
+sass:
+    sass_dir: ./_sass
+    style: expanded
+
 
 navigation:
 -   text: Home

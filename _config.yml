@@ -11,8 +11,8 @@ description: "A default description: Realise is a digital agency based in Edinbu
 
 excerpt_separator: <!--more-->
 
-url: "http://localhost:4000"
-#url: "http://craighamnett.github.io"
+#url: "http://localhost:4000"
+url: "http://craighamnett.github.io"
 
 permalink: pretty
 markdown: rdiscount

@@ -241,11 +241,41 @@ The navigation contains the logo together with the page links.
 It becomes a fixed header at a certain point.
 ======
 */
+header {
+  position: relative;
+}
+header nav {
+  overflow: auto;
+  background-color: rgba(32, 26, 22, 0.9);
+  padding: 0 20px;
+}
+header nav .logo {
+  float: left;
+  width: 150px;
+  height: 28px;
+  padding: 46px 0;
+}
 header nav ul {
   overflow: auto;
+  float: right;
 }
 header nav ul li {
   float: left;
+}
+header nav ul li a {
+  float: left;
+  padding: 14px 10px;
+  margin: 20px 0 19px 10px;
+  border: 2px solid transparent;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+header nav ul li a.nav-contact {
+  border-color: #fff;
+  padding: 14px 25px;
+}
+header nav ul li a:link, header nav ul li a:visited {
+  color: #fff;
 }
 
 /*

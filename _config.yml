@@ -24,10 +24,6 @@ sass:
 
 
 navigation:
--   text: Home
-    title: Go back home
-    url: /
-    class: nav-home
 -   text: Work
     title: See our work
     url: /

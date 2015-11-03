@@ -245,9 +245,13 @@ header {
   position: relative;
 }
 header nav {
-  overflow: auto;
-  background-color: rgba(32, 26, 22, 0.9);
+  position: absolute;
+  width: 100%;
   padding: 0 20px;
+  z-index: 1;
+}
+header nav.sticky {
+  background-color: rgba(32, 26, 22, 0.9);
 }
 header nav .logo {
   float: left;
@@ -283,15 +287,41 @@ header nav ul li a:link, header nav ul li a:visited {
 There are two styles of hero panels.
 ======
 */
-.hero {
-  position: relative;
+header .hero {
   height: 550px;
 }
-.hero h2 {
+
+.hero {
+  position: relative;
+  background-color: #ffb900;
+  background-size: cover;
+  height: 475px;
+}
+.hero h2, .hero p {
+  color: #fff;
+  font-size: 3.5em;
+  line-height: 3.5rem;
   text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .hero p {
-  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+.hero.gregor {
+  background-image: url("/img/hero-gregor.jpg");
+}
+
+/*
+======
+Styling some general content
+======
+*/
+main h4 {
+  color: #1c1c1c;
 }
 
 /*

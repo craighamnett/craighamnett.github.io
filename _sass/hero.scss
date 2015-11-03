@@ -3,14 +3,31 @@
 There are two styles of hero panels.
 ======
 */
-
+header {
+	.hero {
+		height: 550px;
+	}
+}
 .hero {
 	position: relative;
-	height: 550px;
-	h2 {
+	background-color: #ffb900;
+	background-size: cover;
+	height: 475px;
+	h2, p {
+		color: #fff;
+		font-size: 3.5em;
+		line-height: 3.5rem;
 		text-align: center;
+		text-transform: uppercase;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
 	}
 	p {
-		text-align: center;
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+	}
+	&.gregor {
+		background-image: url("/img/hero-gregor.jpg");
 	}
 }

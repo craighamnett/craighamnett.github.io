@@ -8,9 +8,13 @@ It becomes a fixed header at a certain point.
 header {
 	position: relative;
 	nav {
-		overflow: auto;
-		background-color: rgba(32,26,22,.9);
+		position: absolute;
+		width: 100%;
 		padding: 0 20px;
+		z-index: 1;
+		&.sticky {
+			background-color: rgba(32,26,22,.9);
+		}
 		.logo {
 			float: left;
 			width: 150px;

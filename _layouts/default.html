@@ -6,12 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
         <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/styles.css">
+        <!--[if lt IE 9]>
+            <script src="{{ site.url }}/js/html5shiv.min.js"></script>
+        <![endif]-->
     </head>
     <body>
     {% include navigation.html %}
         <main>
-            {{ content }}
+
+        
+{{ content }}
         </main>
+    {% include social.html %}
     {% include footer.html %}
     </body>
 </html>

@@ -5,7 +5,20 @@ Styling some general content
 */
 
 main {
-	h4 {
+	.container {
+		max-width: 1020px;
+		margin: 0 auto;
+		padding: 90px 30px;
+		text-align: center;
+	}
+	h2 {
+		font-size: 1.7rem;
+		line-height: 1.7rem;
+		margin: 5px 0 20px 0;
 		color: #1c1c1c;
+		text-transform: uppercase;
+	}
+	p {
+		font-size: 0.9rem;
 	}
 }

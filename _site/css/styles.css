@@ -112,7 +112,7 @@ textarea {
 :root {
   background-color: white;
   box-sizing: border-box;
-  color: black;
+  color: #333333;
   cursor: default;
   font: 100%/1.5 sans-serif;
   text-rendering: optimizeLegibility;
@@ -253,11 +253,15 @@ header nav {
 header nav.sticky {
   background-color: rgba(32, 26, 22, 0.9);
 }
-header nav .logo {
+header nav .logo a {
   float: left;
   width: 150px;
   height: 28px;
   padding: 46px 0;
+  background-image: url("/img/logo-realise.png");
+  background-position: center;
+  background-size: 150px;
+  text-indent: -100%;
 }
 header nav ul {
   overflow: auto;
@@ -293,7 +297,8 @@ header .hero {
 
 .hero {
   position: relative;
-  background-color: #ffb900;
+  background-color: #9a9a9a;
+  background-position: top right;
   background-size: cover;
   height: 475px;
 }
@@ -314,14 +319,49 @@ header .hero {
 .hero.gregor {
   background-image: url("/img/hero-gregor.jpg");
 }
+.hero.nick {
+  background-image: url("/img/hero-nick.jpg");
+}
+.hero.home {
+  background-image: url("/img/hero-home.jpg");
+}
+.hero.careers {
+  background-image: url("/img/hero-careers.jpg");
+}
+.hero.blog {
+  background-image: url("/img/hero-blog.jpg");
+}
 
 /*
 ======
 Styling some general content
 ======
 */
-main h4 {
+main .container {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 90px 30px;
+  text-align: center;
+}
+main h2 {
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  margin: 5px 0 20px 0;
   color: #1c1c1c;
+  text-transform: uppercase;
+}
+main p {
+  font-size: 0.9rem;
+}
+
+/*
+======
+Style the social links which are above the footer
+======
+*/
+.social-media {
+  margin-top: 90px;
+  background: #f0f0f0;
 }
 
 /*

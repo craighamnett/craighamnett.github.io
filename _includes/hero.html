@@ -1,5 +1,5 @@
 
             <div class="hero {{ page.hero-image }}">
                 <h2>{{ page.hero-title }}</h2>
-                <p>{{ page.hero-subtitle }}</p>
+                {% if page.hero-subtitle %}<p>{{ page.hero-subtitle }}</p>{% endif %}
             </div>

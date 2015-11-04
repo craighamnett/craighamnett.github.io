@@ -2,10 +2,10 @@
 title: Realise
 layout: default
 description: Realise is a digital agency based in Edinburgh.
+hero-image: home
+hero-title: Digital Marketing
+hero-subtitle: An agency of character
 ---
-
-# Digital Marketing
-
-## An agency of character
-
-<a href="javascript:;" class="btn">View our work</a>
+<div class="container">
+	<h2>Experience people you'll love working with</h2>
+</div>

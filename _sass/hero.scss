@@ -5,13 +5,14 @@ There are two styles of hero panels.
 */
 header {
 	.hero {
+		background-position: top right;
 		height: 550px;
 	}
 }
 .hero {
 	position: relative;
 	background-color: #9a9a9a;
-	background-position: top right;
+	background-position: bottom right;
 	background-size: cover;
 	height: 475px;
 	h2, p {
@@ -33,4 +34,5 @@ header {
 	&.home { background-image: url("/img/hero-home.jpg"); }
 	&.careers { background-image: url("/img/hero-careers.jpg"); }
 	&.blog { background-image: url("/img/hero-blog.jpg"); }
+	&.about { background-image: url("/img/hero-about.jpg"); }
 }

@@ -1,0 +1,31 @@
+/*
+======
+Leadership team is on the about page and consist of a row of 3 people on desktop, stacking on mobile
+======
+*/
+
+.leadership-team {
+    overflow: auto;
+    h2 {
+        margin-bottom: 40px;
+    }
+    .member {
+        float: left;
+        width: 33%;
+        padding: 0 10px;
+        h3 {
+            font-size: 1rem;
+            padding-top: 150px;
+            color: #1f1f1f;
+            text-transform: uppercase;
+            background-position: top center;
+            background-size: 150px;
+        }
+        p {
+
+        }
+        &.tony-murphy h3 { background-image: url("/img/icon-strategy.jpg"); }
+        &.fiona-proudler h3 { background-image: url("/img/icon-technology.jpg"); }
+        &.karl-hampson h3 { background-image: url("/img/icon-creative.jpg"); }
+    }
+}

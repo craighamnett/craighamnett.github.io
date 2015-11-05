@@ -6,51 +6,48 @@ It becomes a fixed header at a certain point.
 */
 
 header {
-	position: relative;
-	nav {
-		position: absolute;
-		width: 100%;
-		padding: 0 20px;
-		z-index: 1;
-		&.sticky {
-			background-color: rgba(32,26,22,.9);
-		}
-		.logo {
-			a {
-				float: left;
-				width: 150px;
-				height: 28px;
-				padding: 46px 0;
-				background-image: url("/img/logo-realise.png");
-				background-position: center;
-				background-size: 150px;
-				text-indent: -100%;
-			}
-		}
-		ul {
-			overflow: auto;
-			float: right;
-			li {
-				float: left;
-				a {
-					float: left;
-					padding: 14px 10px;
-					margin: 20px 0 19px 10px;
-					border: 2px solid transparent;
-					font-size: 0.9rem;
-					text-transform: uppercase;
-					&.nav-contact {
-						border-color: #fff;
-						padding: 14px 25px;
-					}
-					&:link, &:visited {
-						color: #fff;
-					}
-					&:hover, &:active {
-
-					}
-				}
-			}
-		}
-	}
+    position: relative;
+    nav {
+        position: absolute;
+        width: 100%;
+        padding: 0 20px;
+        z-index: 1;
+        &.sticky {
+            background-color: rgba(32,26,22,.9);
+        }
+        .logo {
+            a {
+                float: left;
+                width: 150px;
+                height: 28px;
+                padding: 46px 0;
+                background-image: url("/img/logo-realise.png");
+                background-position: center;
+                background-size: 150px;
+                text-indent: -100%;
+            }
+        }
+        ul {
+            overflow: auto;
+            float: right;
+            li {
+                float: left;
+                a {
+                    float: left;
+                    padding: 14px 10px;
+                    margin: 20px 0 19px 10px;
+                    border: 2px solid transparent;
+                    font-size: 0.9rem;
+                    text-transform: uppercase;
+                    &.nav-contact {
+                        border-color: #fff;
+                        padding: 14px 25px;
+                    }
+                    &:link, &:visited {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
 }

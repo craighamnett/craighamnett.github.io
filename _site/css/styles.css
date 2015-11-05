@@ -277,13 +277,21 @@ header nav ul li a {
   border: 2px solid transparent;
   font-size: 0.9rem;
   text-transform: uppercase;
+  transition: all 0.1s ease-in-out;
 }
 header nav ul li a.nav-contact {
   border-color: #fff;
   padding: 14px 25px;
 }
+header nav ul li a.nav-contact:hover, header nav ul li a.nav-contact:focus {
+  background-color: #fff;
+  color: rgba(32, 26, 22, 0.9);
+}
 header nav ul li a:link, header nav ul li a:visited {
-  color: #fff;
+  color: white;
+}
+header nav ul li a:hover, header nav ul li a:focus {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /*
@@ -421,23 +429,54 @@ Leadership team is on the about page and consist of a row of 3 people on desktop
   float: left;
   width: 33%;
   padding: 0 10px;
+  margin: 30px 0;
 }
 .leadership-team .member h3 {
-  font-size: 1rem;
-  padding-top: 150px;
-  color: #1f1f1f;
+  font-size: 0.9rem;
+  padding-top: 185px;
+  color: rgba(31, 31, 31, 0.5);
   text-transform: uppercase;
   background-position: top center;
   background-size: 150px;
 }
+.leadership-team .member h3 a:link, .leadership-team .member h3 a:visited {
+  color: rgba(31, 31, 31, 0.5);
+}
+.leadership-team .member h3 a:hover, .leadership-team .member h3 a:focus {
+  color: #1f1f1f;
+}
 .leadership-team .member.tony-murphy h3 {
-  background-image: url("/img/icon-strategy.jpg");
+  background-image: url("/img/team-tony-murphy.png");
 }
 .leadership-team .member.fiona-proudler h3 {
-  background-image: url("/img/icon-technology.jpg");
+  background-image: url("/img/team-fiona-proudler.png");
 }
 .leadership-team .member.karl-hampson h3 {
-  background-image: url("/img/icon-creative.jpg");
+  background-image: url("/img/team-karl-hampson.png");
+}
+.leadership-team .member.jon-tonberg h3 {
+  background-image: url("/img/team-jon-tonberg.png");
+}
+.leadership-team .member.don-smith h3 {
+  background-image: url("/img/team-don-smith.png");
+}
+.leadership-team .member.dave-ward h3 {
+  background-image: url("/img/team-dave-ward.png");
+}
+.leadership-team .member.alec-bennett h3 {
+  background-image: url("/img/team-alec-bennett.png");
+}
+.leadership-team .member.dave-malins h3 {
+  background-image: url("/img/team-dave-malins.png");
+}
+.leadership-team .member.greg-moss h3 {
+  background-image: url("/img/team-greg-moss.png");
+}
+.leadership-team .member.matt-powell h3 {
+  background-image: url("/img/team-matt-powell.png");
+}
+.leadership-team .member.james-kempster h3 {
+  background-image: url("/img/team-james-kempster.png");
 }
 
 /*

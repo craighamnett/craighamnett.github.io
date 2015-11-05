@@ -1,23 +1,10 @@
 <div class="leadership-team">
-    <h2>Leadership team</h2>
-<!--    <div class="member tony-murphy">
-        <h3>Tony Murphy</h3>
-        <p>CEO</p>
-    </div>
-    <div class="member fiona-proudler">
-        <h3>Fiona Proudler</h3>
-        <p>Managing Director</p>
-    </div>
-    <div class="member karl-hampson">
-        <h3>Karl Hampson</h3>
-        <p>Commercial Director</p>
-    </div>
- -->
+    	<h2>Leadership team</h2>
 {% for member in site.data.team %}
-    <div class="member {{ team.image }}">
-        <h3>{{ member.name }}</h3>
-        <p>{{ member.title }}</p>
-    </div>
+	    <div class="member {{ member.firstName | downcase }}-{{ member.lastName | downcase }}">
+	        <h3><a href="{{ member.linkedin }}" target="_blank" title="Connect with {{ member.firstName }} on LinkedIn">{{ member.firstName }} {{ member.lastName }}</a></h3>
+	        <p>{{ member.title }}</p>
+	        <p>{{ member.subtitle }}{% if member.subtitle == null %}&nbsp;{% endif %}</p>
+	    </div>
 {% endfor %}
-
-</div>
+	</div>

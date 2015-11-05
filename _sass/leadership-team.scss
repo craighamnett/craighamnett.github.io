@@ -13,19 +13,31 @@ Leadership team is on the about page and consist of a row of 3 people on desktop
         float: left;
         width: 33%;
         padding: 0 10px;
+        margin: 30px 0;
         h3 {
-            font-size: 1rem;
-            padding-top: 150px;
-            color: #1f1f1f;
+            font-size: 0.9rem;
+            padding-top: 185px;
+            color: rgba(31,31,31,.5);
             text-transform: uppercase;
             background-position: top center;
             background-size: 150px;
+            a:link, a:visited {
+                color: rgba(31,31,31,.5);
+            }
+            a:hover, a:focus {
+                color: rgba(31,31,31,1);
+            }
         }
-        p {
-
-        }
-        &.tony-murphy h3 { background-image: url("/img/icon-strategy.jpg"); }
-        &.fiona-proudler h3 { background-image: url("/img/icon-technology.jpg"); }
-        &.karl-hampson h3 { background-image: url("/img/icon-creative.jpg"); }
+        &.tony-murphy h3 { background-image: url("/img/team-tony-murphy.png"); }
+        &.fiona-proudler h3 { background-image: url("/img/team-fiona-proudler.png"); }
+        &.karl-hampson h3 { background-image: url("/img/team-karl-hampson.png"); }
+        &.jon-tonberg h3 { background-image: url("/img/team-jon-tonberg.png"); }
+        &.don-smith h3 { background-image: url("/img/team-don-smith.png"); }
+        &.dave-ward h3 { background-image: url("/img/team-dave-ward.png"); }
+        &.alec-bennett h3 { background-image: url("/img/team-alec-bennett.png"); }
+        &.dave-malins h3 { background-image: url("/img/team-dave-malins.png"); }
+        &.greg-moss h3 { background-image: url("/img/team-greg-moss.png"); }
+        &.matt-powell h3 { background-image: url("/img/team-matt-powell.png"); }
+        &.james-kempster h3 { background-image: url("/img/team-james-kempster.png"); }
     }
 }

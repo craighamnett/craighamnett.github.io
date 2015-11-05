@@ -39,12 +39,20 @@ header {
                     border: 2px solid transparent;
                     font-size: 0.9rem;
                     text-transform: uppercase;
+                    transition: all 0.1s ease-in-out;
                     &.nav-contact {
                         border-color: #fff;
                         padding: 14px 25px;
+                        &:hover, &:focus {
+                            background-color: #fff;
+                            color: rgba(32,26,22,.9);
+                        }
                     }
                     &:link, &:visited {
-                        color: #fff;
+                        color: rgba(255,255,255,1)
+                    }
+                    &:hover, &:focus {
+                        color: rgba(255,255,255,0.5)
                     }
                 }
             }

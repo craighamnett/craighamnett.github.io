@@ -495,9 +495,33 @@ The footer is a footer.
 ======
 */
 footer {
-  height: 300px;
   background: #201a16;
 }
-footer p {
+footer .address-container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 90px 30px;
+  text-align: center;
+  overflow: auto;
+}
+footer .address-container h3 {
+  font-size: 1.1rem;
+  margin: 0 0 15px 0;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+footer .address-container .vcard {
+  float: left;
+  width: 50%;
+}
+footer .address-container .vcard .extended-address,
+footer .address-container .vcard .street-address,
+footer .address-container .vcard .locality,
+footer .address-container .vcard .postal-code {
+  display: block;
+}
+footer .address-container .vcard p {
+  font-size: 0.9rem;
   color: #fff;
 }

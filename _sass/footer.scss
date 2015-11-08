@@ -24,8 +24,7 @@ footer {
             width: 50%;
             .extended-address,
             .street-address,
-            .locality,
-            .postal-code {
+            .wrapper {
                 display: block;
             }
             p {
@@ -33,5 +32,12 @@ footer {
                 color: #fff;
             }
         }
+    }
+    a:link, a:visited {
+        color: #fff;
+        border-bottom: 1px solid #fff;
+    }
+    a:hover, a:focus {
+
     }
 }

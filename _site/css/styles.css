@@ -349,6 +349,10 @@ header .hero {
 Styling some general content
 ======
 */
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
 main .container {
   max-width: 1080px;
   margin: 0 auto;
@@ -517,11 +521,14 @@ footer .address-container .vcard {
 }
 footer .address-container .vcard .extended-address,
 footer .address-container .vcard .street-address,
-footer .address-container .vcard .locality,
-footer .address-container .vcard .postal-code {
+footer .address-container .vcard .wrapper {
   display: block;
 }
 footer .address-container .vcard p {
   font-size: 0.9rem;
   color: #fff;
+}
+footer a:link, footer a:visited {
+  color: #fff;
+  border-bottom: 1px solid #fff;
 }

@@ -253,16 +253,6 @@ header nav {
 header nav.sticky {
   background-color: rgba(32, 26, 22, 0.9);
 }
-header nav .logo a {
-  float: left;
-  width: 150px;
-  height: 28px;
-  padding: 46px 0;
-  background-image: url("/img/logo-realise.png");
-  background-position: center;
-  background-size: 150px;
-  text-indent: -100%;
-}
 header nav ul {
   overflow: auto;
   float: right;
@@ -292,6 +282,17 @@ header nav ul li a:link, header nav ul li a:visited {
 }
 header nav ul li a:hover, header nav ul li a:focus {
   color: rgba(255, 255, 255, 0.5);
+}
+
+.logo-realise a {
+  float: left;
+  width: 150px;
+  height: 28px;
+  padding: 46px 0;
+  background-image: url("/img/logo-realise.png");
+  background-position: center;
+  background-size: 150px;
+  text-indent: -100%;
 }
 
 /*
@@ -504,7 +505,7 @@ footer {
 footer .address-container {
   max-width: 1080px;
   margin: 0 auto;
-  padding: 90px 30px;
+  padding: 90px 30px 30px;
   text-align: center;
   overflow: auto;
 }
@@ -531,4 +532,20 @@ footer .address-container .vcard p {
 footer a:link, footer a:visited {
   color: #fff;
   border-bottom: 1px solid #fff;
+}
+footer a:hover, footer a:focus {
+  opacity: 0.75;
+}
+
+.logo-st-ives a:link, .logo-st-ives a:visited {
+  display: block;
+  width: 170px;
+  height: 23px;
+  margin: 0 auto;
+  background-image: url("/img/logo-st-ives.png");
+  border-bottom: 0;
+  text-indent: -100%;
+}
+.logo-st-ives a:hover, .logo-st-ives a:focus {
+  opacity: 0.75;
 }

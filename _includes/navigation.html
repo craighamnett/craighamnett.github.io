@@ -1,6 +1,6 @@
     <header>
             <nav>{% assign url = page.url | split:'/' | first %}
-                <h2 class="logo"><a href="{{ site.url }}">Realise</a></h2>
+                <h2 class="logo-realise"><a href="{{ site.url }}">Realise</a></h2>
                 <ul>{% for link in site.navigation %}{% assign state = '' %}{% if page.url == link.url %}{% assign state = ' active' %}{% endif %}
                     <li><a href="{{ site.url }}{{ link.url }}" title="{{ link.title }}" class="{{ link.class }}{{ state }}">{{ link.text }}</a></li>{% endfor %}
                 </ul>

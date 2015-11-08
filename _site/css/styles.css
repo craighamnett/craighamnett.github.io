@@ -491,7 +491,44 @@ Style the social links which are above the footer
 */
 .social-media {
   margin-top: 90px;
+  padding: 29px 0;
   background: #f0f0f0;
+}
+.social-media ul {
+  width: 64px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: auto;
+}
+.social-media ul li {
+  list-style: none;
+  float: left;
+}
+.social-media ul li a {
+  float: left;
+  padding: 6px;
+}
+
+.logo-twitter a:link, .logo-twitter a:visited,
+.logo-vimeo a:link,
+.logo-vimeo a:visited {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url("/img/logo-twitter.png");
+  background-size: 20px;
+  background-position: center center;
+  text-indent: -1000%;
+}
+.logo-twitter a:hover, .logo-twitter a:focus,
+.logo-vimeo a:hover,
+.logo-vimeo a:focus {
+  opacity: 0.5;
+}
+
+.logo-vimeo a:link, .logo-vimeo a:visited {
+  background-image: url("/img/logo-vimeo.png");
 }
 
 /*
@@ -505,7 +542,7 @@ footer {
 footer .address-container {
   max-width: 1080px;
   margin: 0 auto;
-  padding: 90px 30px 30px;
+  padding: 100px 30px 30px;
   text-align: center;
   overflow: auto;
 }
@@ -539,7 +576,7 @@ footer nav ul {
 footer nav ul li {
   display: inline-block;
 }
-footer nav ul li a:link {
+footer nav ul li a:link, footer nav ul li a:visited {
   display: inline-block;
   margin: 0 2px;
 }

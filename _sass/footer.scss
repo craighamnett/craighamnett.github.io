@@ -9,7 +9,7 @@ footer {
     .address-container {
         max-width: 1080px;
         margin: 0 auto;
-        padding: 90px 30px 30px;
+        padding: 100px 30px 30px;
         text-align: center;
         overflow: auto;
         h3 {
@@ -40,7 +40,7 @@ footer {
             font-size: 0.9rem;
             li {
                 display: inline-block;
-                a:link {
+                a:link, a:visited {
                     display: inline-block;
                     margin: 0 2px;
                 }

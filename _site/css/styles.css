@@ -529,8 +529,23 @@ footer .address-container .vcard p {
   font-size: 0.9rem;
   color: #fff;
 }
+footer nav {
+  padding: 30px 0 60px;
+}
+footer nav ul {
+  text-align: center;
+  font-size: 0.9rem;
+}
+footer nav ul li {
+  display: inline-block;
+}
+footer nav ul li a:link {
+  display: inline-block;
+  margin: 0 2px;
+}
 footer a:link, footer a:visited {
   color: #fff;
+  line-height: 1.1rem;
   border-bottom: 1px solid #fff;
 }
 footer a:hover, footer a:focus {

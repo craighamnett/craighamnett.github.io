@@ -262,7 +262,7 @@ header nav ul li {
 }
 header nav ul li a {
   float: left;
-  margin: 20px 0 19px 10px;
+  margin: 18px 0 20px 12px;
   padding: 14px 10px;
   border: 2px solid transparent;
   font-family: "Oswald";
@@ -273,7 +273,7 @@ header nav ul li a {
 }
 header nav ul li a.nav-contact {
   border-color: #fff;
-  margin-left: 20px;
+  margin-left: 22px;
   padding: 14px 25px;
 }
 header nav ul li a.nav-contact:hover, header nav ul li a.nav-contact:focus {

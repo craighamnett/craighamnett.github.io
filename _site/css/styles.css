@@ -327,12 +327,12 @@ header .hero {
   font-size: 3.75em;
   line-height: 3.75rem;
   letter-spacing: -2px;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 }
 .hero p {
   font-family: "Oswald";
-  font-size: 1.55rem;
-  line-height: 1.55rem;
+  font-size: 1.5625rem;
+  line-height: 1.5625rem;
   letter-spacing: 2px;
 }
 .hero.gregor {

@@ -4,35 +4,41 @@ There are two styles of hero panels.
 ======
 */
 header {
-	.hero {
-		background-position: top right;
-		height: 550px;
-	}
+    .hero {
+        background-position: top right;
+        height: 550px;
+    }
 }
 .hero {
-	position: relative;
-	background-color: #9a9a9a;
-	background-position: bottom right;
-	background-size: cover;
-	height: 475px;
-	h2, p {
-		color: #fff;
-		font-size: 3.5em;
-		line-height: 3.5rem;
-		text-align: center;
-		text-transform: uppercase;
-		position: relative;
-		top: 50%;
-		transform: translateY(-50%);
-	}
-	p {
-		font-size: 1.5rem;
-		line-height: 1.5rem;
-	}
-	&.gregor { background-image: url("/img/hero-gregor.jpg"); }
-	&.nick { background-image: url("/img/hero-nick.jpg"); }
-	&.home { background-image: url("/img/hero-home.jpg"); }
-	&.careers { background-image: url("/img/hero-careers.jpg"); }
-	&.blog { background-image: url("/img/hero-blog.jpg"); }
-	&.about { background-image: url("/img/hero-about.jpg"); }
+    position: relative;
+    background-color: #9a9a9a;
+    background-position: bottom right;
+    background-size: cover;
+    height: 475px;
+    h2, p {
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        top: 42.75%;
+    }
+    h2 {
+        font-family: "Montserrat";
+        font-size: 3.75em;
+        line-height: 3.75rem;
+        letter-spacing: -2px;
+        margin-bottom: 24px;
+    }
+    p {
+        font-family: "Oswald";
+        font-size: 1.5625rem
+        line-height: 1.5625rem
+        letter-spacing: 2px;
+    }
+    &.gregor { background-image: url("/img/hero-gregor.jpg"); }
+    &.nick { background-image: url("/img/hero-nick.jpg"); }
+    &.home { background-image: url("/img/hero-home.jpg"); }
+    &.careers { background-image: url("/img/hero-careers.jpg"); }
+    &.blog { background-image: url("/img/hero-blog.jpg"); }
+    &.about { background-image: url("/img/hero-about.jpg"); }
 }

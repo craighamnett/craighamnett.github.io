@@ -262,15 +262,18 @@ header nav ul li {
 }
 header nav ul li a {
   float: left;
-  padding: 14px 10px;
   margin: 20px 0 19px 10px;
+  padding: 14px 10px;
   border: 2px solid transparent;
-  font-size: 0.9rem;
+  font-family: "Oswald";
+  font-size: 1rem;
   text-transform: uppercase;
+  letter-spacing: 2px;
   transition: all 0.1s ease-in-out;
 }
 header nav ul li a.nav-contact {
   border-color: #fff;
+  margin-left: 20px;
   padding: 14px 25px;
 }
 header nav ul li a.nav-contact:hover, header nav ul li a.nav-contact:focus {
@@ -314,17 +317,23 @@ header .hero {
 }
 .hero h2, .hero p {
   color: #fff;
-  font-size: 3.5em;
-  line-height: 3.5rem;
   text-align: center;
   text-transform: uppercase;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 42.75%;
+}
+.hero h2 {
+  font-family: "Montserrat";
+  font-size: 3.75em;
+  line-height: 3.75rem;
+  letter-spacing: -2px;
+  margin-bottom: 25px;
 }
 .hero p {
-  font-size: 1.5rem;
-  line-height: 1.5rem;
+  font-family: "Oswald";
+  font-size: 1.55rem;
+  line-height: 1.55rem;
+  letter-spacing: 2px;
 }
 .hero.gregor {
   background-image: url("/img/hero-gregor.jpg");

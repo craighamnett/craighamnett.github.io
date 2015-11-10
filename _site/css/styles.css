@@ -316,6 +316,7 @@ header .hero {
   height: 475px;
 }
 .hero h2, .hero p {
+  -webkit-font-smoothing: antialiased;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
@@ -327,7 +328,7 @@ header .hero {
   font-size: 3.75em;
   line-height: 3.75rem;
   letter-spacing: -2px;
-  margin-bottom: 24px;
+  margin: 0 0 23px;
 }
 .hero p {
   font-family: "Oswald";
@@ -363,6 +364,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+main {
+  font-family: "Open Sans";
+  -webkit-font-smoothing: subpixel-antialiased;
+}
 main .container {
   max-width: 1080px;
   margin: 0 auto;
@@ -370,14 +375,17 @@ main .container {
   text-align: center;
 }
 main h2 {
-  font-size: 1.8rem;
-  line-height: 1.8rem;
+  font-family: "Montserrat";
+  font-size: 1.875rem;
+  line-height: 1.875rem;
   margin: 5px 0 20px 0;
   color: #1c1c1c;
   text-transform: uppercase;
 }
 main p {
-  font-size: 0.9rem;
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.3px;
 }
 
 /*
@@ -386,11 +394,11 @@ Core Services are used on the about page and consist of a row of 4 on desktop, s
 ======
 */
 .core-services {
-  margin-top: 100px;
+  margin-top: 105px;
   overflow: auto;
 }
 .core-services h2 {
-  margin-bottom: 40px;
+  margin-bottom: 37px;
 }
 .core-services .service {
   float: left;
@@ -398,34 +406,36 @@ Core Services are used on the about page and consist of a row of 4 on desktop, s
   padding: 0 10px;
 }
 .core-services .service h3 {
-  font-size: 1.1rem;
-  margin: 0 0 15px 0;
-  padding-top: 220px;
-  color: #1f1f1f;
+  font-family: "Montserrat";
+  font-size: 1.125rem;
   text-transform: uppercase;
   letter-spacing: 4px;
-  background-position: top center;
-  background-size: 100%;
+  color: #1f1f1f;
+  margin: 0 0 13px 0;
+  padding-top: 227px;
+  background-image: url("/img/icon-sprite.png");
+  background-size: 229px;
 }
 .core-services .service ul {
   list-style: none;
 }
 .core-services .service ul li {
   list-style: none;
-  font-size: 0.9rem;
-  line-height: 1.6rem;
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.3px;
 }
 .core-services .service.strategy h3 {
-  background-image: url("/img/icon-strategy.jpg");
+  background-position: center -233px;
 }
 .core-services .service.technology h3 {
-  background-image: url("/img/icon-technology.jpg");
+  background-position: center 0;
 }
 .core-services .service.creative h3 {
-  background-image: url("/img/icon-creative.jpg");
+  background-position: center -698px;
 }
 .core-services .service.production h3 {
-  background-image: url("/img/icon-production.jpg");
+  background-position: center -466px;
 }
 
 /*
@@ -437,21 +447,20 @@ Leadership team is on the about page and consist of a row of 3 people on desktop
   overflow: auto;
 }
 .leadership-team h2 {
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 .leadership-team .member {
   float: left;
   width: 33%;
   padding: 0 10px;
-  margin: 30px 0;
+  margin: 30px 0 20px;
 }
 .leadership-team .member h3 {
-  font-size: 0.9rem;
+  font-size: 0.9375rem;
   padding-top: 185px;
   color: rgba(31, 31, 31, 0.5);
   text-transform: uppercase;
-  background-position: top center;
-  background-size: 150px;
+  background-image: url("/img/team-sprite.png");
 }
 .leadership-team .member h3 a:link, .leadership-team .member h3 a:visited {
   color: rgba(31, 31, 31, 0.5);
@@ -460,37 +469,37 @@ Leadership team is on the about page and consist of a row of 3 people on desktop
   color: #1f1f1f;
 }
 .leadership-team .member.tony-murphy h3 {
-  background-image: url("/img/team-tony-murphy.png");
+  background-position: center 0;
 }
 .leadership-team .member.fiona-proudler h3 {
-  background-image: url("/img/team-fiona-proudler.png");
+  background-position: center -210px;
 }
 .leadership-team .member.karl-hampson h3 {
-  background-image: url("/img/team-karl-hampson.png");
+  background-position: center -420px;
 }
 .leadership-team .member.jon-tonberg h3 {
-  background-image: url("/img/team-jon-tonberg.png");
+  background-position: center -630px;
 }
 .leadership-team .member.don-smith h3 {
-  background-image: url("/img/team-don-smith.png");
+  background-position: center -840px;
 }
 .leadership-team .member.dave-ward h3 {
-  background-image: url("/img/team-dave-ward.png");
+  background-position: center -1050px;
 }
 .leadership-team .member.alec-bennett h3 {
-  background-image: url("/img/team-alec-bennett.png");
+  background-position: center -1260px;
 }
 .leadership-team .member.dave-malins h3 {
-  background-image: url("/img/team-dave-malins.png");
+  background-position: center -1470px;
 }
 .leadership-team .member.greg-moss h3 {
-  background-image: url("/img/team-greg-moss.png");
+  background-position: center -1680px;
 }
 .leadership-team .member.matt-powell h3 {
-  background-image: url("/img/team-matt-powell.png");
+  background-position: center -1890px;
 }
 .leadership-team .member.james-kempster h3 {
-  background-image: url("/img/team-james-kempster.png");
+  background-position: center -2100px;
 }
 
 /*

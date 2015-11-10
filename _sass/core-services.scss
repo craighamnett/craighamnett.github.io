@@ -5,36 +5,38 @@ Core Services are used on the about page and consist of a row of 4 on desktop, s
 */
 
 .core-services {
-    margin-top: 100px;
+    margin-top: 105px;
     overflow: auto;
     h2 {
-        margin-bottom: 40px;
+        margin-bottom: 37px;
     }
     .service {
         float: left;
         width: 25%;
         padding: 0 10px;
         h3 {
-            font-size: 1.1rem;
-            margin: 0 0 15px 0;
-            padding-top: 220px;
-            color: #1f1f1f;
+            font-family: "Montserrat";
+            font-size: 1.125rem;
             text-transform: uppercase;
             letter-spacing: 4px;
-            background-position: top center;
-            background-size: 100%;
+            color: #1f1f1f;
+            margin: 0 0 13px 0;
+            padding-top: 227px;
+            background-image: url("/img/icon-sprite.png");
+            background-size: 229px;
         }
         ul {
             list-style: none;
             li {
                 list-style: none;
-                font-size: 0.9rem;
-                line-height: 1.6rem;
+                font-size: 0.9375rem;
+                line-height: 1.5rem;
+                letter-spacing: 0.3px;
             }
         }
-        &.strategy h3 { background-image: url("/img/icon-strategy.jpg"); }
-        &.technology h3 { background-image: url("/img/icon-technology.jpg"); }
-        &.creative h3 { background-image: url("/img/icon-creative.jpg"); }
-        &.production h3 { background-image: url("/img/icon-production.jpg"); }
+        &.strategy h3 { background-position: center -233px; }
+        &.technology h3 { background-position: center 0; }
+        &.creative h3 { background-position: center -698px; }
+        &.production h3 { background-position: center -466px; }
     }
 }

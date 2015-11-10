@@ -8,6 +8,8 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 main {
+	font-family: "Open Sans";
+	-webkit-font-smoothing: subpixel-antialiased;
 	.container {
 		max-width: 1080px;
 		margin: 0 auto;
@@ -15,13 +17,16 @@ main {
 		text-align: center;
 	}
 	h2 {
-		font-size: 1.8rem;
-		line-height: 1.8rem;
+		font-family: "Montserrat";
+		font-size: 1.875rem;
+		line-height: 1.875rem;
 		margin: 5px 0 20px 0;
 		color: #1c1c1c;
 		text-transform: uppercase;
 	}
 	p {
-		font-size: 0.9rem;
+		font-size: 0.9375rem;
+		line-height: 1.5rem;
+		letter-spacing: 0.3px;
 	}
 }

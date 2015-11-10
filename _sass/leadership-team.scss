@@ -7,37 +7,36 @@ Leadership team is on the about page and consist of a row of 3 people on desktop
 .leadership-team {
     overflow: auto;
     h2 {
-        margin-bottom: 40px;
+        margin-bottom: 45px;
     }
     .member {
         float: left;
         width: 33%;
         padding: 0 10px;
-        margin: 30px 0;
+        margin: 30px 0 20px;
         h3 {
-            font-size: 0.9rem;
+            font-size: 0.9375rem;
             padding-top: 185px;
-            color: rgba(31,31,31,.5);
+            color: rgba(31, 31, 31, 0.5);
             text-transform: uppercase;
-            background-position: top center;
-            background-size: 150px;
+            background-image: url("/img/team-sprite.png");
             a:link, a:visited {
-                color: rgba(31,31,31,.5);
+                color: rgba(31, 31, 31, 0.5);
             }
             a:hover, a:focus {
-                color: rgba(31,31,31,1);
+                color: rgba(31, 31, 31, 1);
             }
         }
-        &.tony-murphy h3 { background-image: url("/img/team-tony-murphy.png"); }
-        &.fiona-proudler h3 { background-image: url("/img/team-fiona-proudler.png"); }
-        &.karl-hampson h3 { background-image: url("/img/team-karl-hampson.png"); }
-        &.jon-tonberg h3 { background-image: url("/img/team-jon-tonberg.png"); }
-        &.don-smith h3 { background-image: url("/img/team-don-smith.png"); }
-        &.dave-ward h3 { background-image: url("/img/team-dave-ward.png"); }
-        &.alec-bennett h3 { background-image: url("/img/team-alec-bennett.png"); }
-        &.dave-malins h3 { background-image: url("/img/team-dave-malins.png"); }
-        &.greg-moss h3 { background-image: url("/img/team-greg-moss.png"); }
-        &.matt-powell h3 { background-image: url("/img/team-matt-powell.png"); }
-        &.james-kempster h3 { background-image: url("/img/team-james-kempster.png"); }
+        &.tony-murphy h3 { background-position: center 0; }
+        &.fiona-proudler h3 { background-position: center -210px; }
+        &.karl-hampson h3 { background-position: center -420px; }
+        &.jon-tonberg h3 { background-position: center -630px; }
+        &.don-smith h3 { background-position: center -840px; }
+        &.dave-ward h3 { background-position: center -1050px; }
+        &.alec-bennett h3 { background-position: center -1260px; }
+        &.dave-malins h3 { background-position: center -1470px; }
+        &.greg-moss h3 { background-position: center -1680px; }
+        &.matt-powell h3 { background-position: center -1890px; }
+        &.james-kempster h3 { background-position: center -2100px; }
     }
 }

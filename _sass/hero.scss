@@ -16,6 +16,7 @@ header {
     background-size: cover;
     height: 475px;
     h2, p {
+        -webkit-font-smoothing: antialiased;
         color: #fff;
         text-align: center;
         text-transform: uppercase;
@@ -27,7 +28,7 @@ header {
         font-size: 3.75em;
         line-height: 3.75rem;
         letter-spacing: -2px;
-        margin-bottom: 24px;
+        margin: 0 0 23px;
     }
     p {
         font-family: "Oswald";

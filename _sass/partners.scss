@@ -1,0 +1,35 @@
+/*
+======
+Partners
+======
+*/
+
+.partners {
+    margin: 125px 0 5px;
+    h2 {
+        margin-bottom: 37px;
+    }
+    ul {
+        list-style: none;
+        overflow: auto;
+        li {
+            float: left;
+            width: 33%;
+            height: 191px;
+            background-image: url("/img/logo-partners-sprite.png");
+            background-size: 191px;
+            text-indent: -100%;
+            overflow: hidden;
+            &.logo-ektron {
+                background-position: center 0;
+            }
+            &.logo-episerver {
+                margin: 0 0.5%;
+                background-position: center 50%;
+            }
+            &.logo-hp {
+                background-position: center 100%;
+            }
+        }
+    }
+}

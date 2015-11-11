@@ -20,4 +20,5 @@ hero-subtitle: A team who care about every interaction
 
 <div class="container">
     {% include leadership-team.html %}
+    {% include partners.html %}
 </div>

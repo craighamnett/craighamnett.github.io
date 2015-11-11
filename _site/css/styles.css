@@ -504,11 +504,45 @@ Leadership team is on the about page and consist of a row of 3 people on desktop
 
 /*
 ======
+Partners
+======
+*/
+.partners {
+  margin: 125px 0 5px;
+}
+.partners h2 {
+  margin-bottom: 37px;
+}
+.partners ul {
+  list-style: none;
+  overflow: auto;
+}
+.partners ul li {
+  float: left;
+  width: 33%;
+  height: 191px;
+  background-image: url("/img/logo-partners-sprite.png");
+  background-size: 191px;
+  text-indent: -100%;
+  overflow: hidden;
+}
+.partners ul li.logo-ektron {
+  background-position: center 0;
+}
+.partners ul li.logo-episerver {
+  margin: 0 0.5%;
+  background-position: center 50%;
+}
+.partners ul li.logo-hp {
+  background-position: center 100%;
+}
+
+/*
+======
 Style the social links which are above the footer
 ======
 */
 .social-media {
-  margin-top: 90px;
   padding: 29px 0;
   background: #f0f0f0;
 }
@@ -535,7 +569,7 @@ Style the social links which are above the footer
   width: 32px;
   height: 32px;
   background-image: url("/img/logo-twitter.png");
-  background-size: 20px;
+  background-size: 19px;
   background-position: center center;
   text-indent: -1000%;
 }

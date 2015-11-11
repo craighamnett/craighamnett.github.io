@@ -9,15 +9,17 @@ footer {
     .address-container {
         max-width: 1080px;
         margin: 0 auto;
-        padding: 100px 30px 30px;
+        padding: 102px 30px 32px;
         text-align: center;
         overflow: auto;
         h3 {
-            font-size: 1.1rem;
-            margin: 0 0 15px 0;
+            font-family: "Montserrat";
+            font-weight: 700;
+            font-size: 1.125rem;
             color: #fff;
             text-transform: uppercase;
             letter-spacing: 4px;
+            margin: 0 0 15px 0;
         }
         .vcard {
             float: left;
@@ -28,18 +30,24 @@ footer {
                 display: block;
             }
             p {
-                font-size: 0.9rem;
+                font-family: "Open Sans";
+                font-size: 0.9375rem;
+                line-height: 1.5rem;
+                letter-spacing: 0.3px;
                 color: #fff;
             }
         }
     }
     nav {
-        padding: 30px 0 60px;
+        padding: 34px 0 63px;
         ul {
             text-align: center;
-            font-size: 0.9rem;
             li {
                 display: inline-block;
+                font-family: "Open Sans";
+                font-size: 0.9375rem;
+                line-height: 1.5rem;
+                letter-spacing: 0.3px;
                 a:link, a:visited {
                     display: inline-block;
                     margin: 0 2px;
@@ -49,7 +57,7 @@ footer {
     }
     a:link, a:visited {
         color: #fff;
-        line-height: 1.1rem;
+        line-height: 1.2rem;
         border-bottom: 1px solid #fff;
     }
     a:hover, a:focus {
@@ -62,7 +70,8 @@ footer {
         width: 170px;
         height: 23px;
         margin: 0 auto;
-        background-image: url("/img/logo-st-ives.png");
+        background-image: url("/img/logo-sprite.png");
+        background-position: right 0;
         border-bottom: 0;
         text-indent: -100%;
     }

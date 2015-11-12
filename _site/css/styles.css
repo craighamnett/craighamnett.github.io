@@ -110,9 +110,9 @@ textarea {
 }
 
 :root {
-  background-color: #fff;
+  background-color: white;
   box-sizing: border-box;
-  color: #333;
+  color: #333333;
   cursor: default;
   font: 100%/1.5 sans-serif;
   text-rendering: optimizeLegibility;
@@ -203,14 +203,14 @@ textarea {
 }
 
 ::-moz-selection {
-  background-color: #B3D4FC;
-  color: #ffffff;
+  background-color: #b3d4fc;
+  color: white;
   text-shadow: none;
 }
 
 ::selection {
-  background-color: #B3D4FC;
-  color: #ffffff;
+  background-color: #b3d4fc;
+  color: white;
   text-shadow: none;
 }
 
@@ -337,14 +337,16 @@ header .hero {
   line-height: 1.5625rem;
   letter-spacing: 2px;
 }
+.hero.home {
+  height: 642px;
+  background-position: top left;
+  background-image: url("/img/hero-home.jpg");
+}
 .hero.gregor {
   background-image: url("/img/hero-gregor.jpg");
 }
 .hero.nick {
   background-image: url("/img/hero-nick.jpg");
-}
-.hero.home {
-  background-image: url("/img/hero-home.jpg");
 }
 .hero.careers {
   background-image: url("/img/hero-careers.jpg");

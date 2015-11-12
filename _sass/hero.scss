@@ -37,9 +37,13 @@ header {
         line-height: 1.5625rem;
         letter-spacing: 2px;
     }
+    &.home {
+        height: 642px;
+        background-position: top left;
+        background-image: url("/img/hero-home.jpg");
+    }
     &.gregor { background-image: url("/img/hero-gregor.jpg"); }
     &.nick { background-image: url("/img/hero-nick.jpg"); }
-    &.home { background-image: url("/img/hero-home.jpg"); }
     &.careers { background-image: url("/img/hero-careers.jpg"); }
     &.blog { background-image: url("/img/hero-blog.jpg"); }
     &.about { background-image: url("/img/hero-about.jpg"); }

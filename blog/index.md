@@ -3,7 +3,7 @@ title: Realise Blog
 description: Read our blog
 layout: default
 hero-image: blog
-hero-title: Realisers thoughts
+hero-title: Realisers' thoughts
 hero-subtitle:
 ---
 <div class="container">

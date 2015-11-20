@@ -7,10 +7,9 @@ tags: [javascript, dev]
 teaser: 'Why do you do what you do? Senior Strategist Chris discusses the importance of understanding this question.'
 author: Chris Dane
 hero-image: blog-brain
-hero-title: Blog
-hero-subtitle: WHY do you do what you do?
+hero-title: WHY do you do what you do?
+hero-subtitle: 
 ---
-
 A friend recently asked for my thoughts on a digital product start-up he is working on. It is a great idea, in a receptive market, grounded in a strong business model. But something was missing from his elevator pitch.
 
 I cannot share the details, but I can say that in addition to having a strong customer value proposition, I observed in his idea a broader social purpose; an educational element that helps kids become more creative. My thought was that this is a truly noble cause, which could help him to create something special that really connects with people, emotionally. His product’s cause could help him win investment, employ the right talent, and ultimately win the hearts of consumers.

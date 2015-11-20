@@ -13,12 +13,12 @@
             <script src="{{ site.url }}/js/html5shiv.min.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body{% if page.category %} class="{{ page.category }}"{% endif %}>
     {% include navigation.html %}
         <main>
-
-        
+{% if page.category == 'blog' %}{% include blog-header.html %}{% endif %}
 {{ content }}
+{% if page.category == 'blog' %}{% include blog-footer.html %}{% endif %}
         </main>
     {% include social.html %}
     {% include footer.html %}

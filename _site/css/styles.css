@@ -357,6 +357,12 @@ header .hero {
 .hero.about {
   background-image: url("/img/hero-about.jpg");
 }
+.hero.blog-crowd {
+  background-image: url("/img/hero-blog-crowd.jpg");
+}
+.hero.blog-brain {
+  background-image: url("/img/hero-blog-brain.jpg");
+}
 
 /*
 ======
@@ -371,11 +377,21 @@ main {
   font-family: "Open Sans";
   -webkit-font-smoothing: subpixel-antialiased;
 }
-main .container {
+main .container,
+main .blog-container {
   max-width: 1080px;
   margin: 0 auto;
   padding: 90px 30px;
   text-align: center;
+}
+main .blog-container {
+  max-width: 700px;
+}
+main .blog-container p {
+  text-align: left;
+}
+main .blog-container .blog-article {
+  text-align: left;
 }
 main h2 {
   font-family: "Montserrat";

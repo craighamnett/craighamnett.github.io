@@ -1,0 +1,7 @@
+                </div>
+                
+                {% if page.previous %}<p>Older Post</p>
+                <p><a rel="prev" href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>{% endif %}
+                {% if page.next %}<p>Newer Post</a></p>
+                <p><a rel="next" href="{{ page.next.url }}">{{ page.next.title }}</a></p>{% endif %}
+            </div>

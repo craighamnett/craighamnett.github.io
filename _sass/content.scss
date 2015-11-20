@@ -10,11 +10,21 @@ body {
 main {
 	font-family: "Open Sans";
 	-webkit-font-smoothing: subpixel-antialiased;
-	.container {
+	.container,
+	.blog-container {
 		max-width: 1080px;
 		margin: 0 auto;
 		padding: 90px 30px;
 		text-align: center;
+	}
+	.blog-container {
+		max-width: 700px;
+		p {
+			text-align: left;
+		}
+		.blog-article {
+			text-align: left;
+		}
 	}
 	h2 {
 		font-family: "Montserrat";
